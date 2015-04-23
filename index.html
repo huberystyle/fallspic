@@ -1,0 +1,174 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>瀑布流图片展示</title>
+<style>
+*{ margin:0; padding:0; font-size:12px; color:#000;}
+ul,li{ list-style:none;}
+a,img{border:0;}
+
+#picList{ position:relative; margin:20px auto;}
+#picList li{ padding:5px; border:1px solid #CCC; margin:5px 5px 0; position:absolute;}
+#picList img{ width:310px; display:block;}
+</style>
+<script src="http://frontend.sinaapp.com/js/jquery-1.4.2.min.js"></script>
+<script src="fallspic.js"></script>
+<script>
+$(function(){
+	$(".t1").click(function(){
+		$(".tab2").hide(); 
+		$(".tab1").show();
+		$("#picList").fallspic({picWidth:340,lineShowNum:3});
+	});
+	$(".t2").click(function(){
+		$(".tab1").hide(); 
+		$(".tab2").show();
+		$("#picList").fallspic({picWidth:340,lineShowNum:3});
+	});
+	$("#picList").fallspic({picWidth:340,lineShowNum:3});
+});
+</script>
+</head>
+
+<body>
+<a href="javascript:void(0)" class="t1">tab1</a>
+<a href="javascript:void(0)" class="t2">tab2</a>
+<ul id="picList">
+    <li class="tab1">
+		<img src="images/01.jpg" width="310" height="206" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/02.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/03.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/04.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/05.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/06.jpg" width="310" height="208" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/07.jpg" width="310" height="393" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/08.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/09.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/10.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/11.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/01.jpg" width="310" height="206" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/02.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/03.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/04.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/05.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/06.jpg" width="310" height="208" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/07.jpg" width="310" height="393" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/08.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/09.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/10.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/11.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/01.jpg" width="310" height="206" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/02.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/03.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/04.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/05.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/06.jpg" width="310" height="208" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/07.jpg" width="310" height="393" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/08.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/09.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/10.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/11.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/01.jpg" width="310" height="206" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/02.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/03.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/04.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/05.jpg" width="310" height="310" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/06.jpg" width="310" height="208" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/07.jpg" width="310" height="393" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/08.jpg" width="310" height="207" border="0" />
+	</li>
+    <li class="tab1">
+		<img src="images/09.jpg" width="310" height="465" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/10.jpg" width="310" height="413" border="0" />
+	</li>
+    <li class="tab2">
+		<img src="images/11.jpg" width="310" height="310" border="0" />
+	</li>
+</ul>
+
+
+</body>
+</html>
