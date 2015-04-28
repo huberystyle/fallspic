@@ -7,4 +7,6 @@
   lineShowNum 代表每行显示多少张图片
 */
 
+'''
 $("selector").fallspic({picWidth:250,lineShowNum:4}); 
+'''
