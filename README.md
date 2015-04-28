@@ -3,8 +3,8 @@
 
 使用说明：
 /*
-  picWidth 代表每张图片的宽度  
-  lineShowNum 代表每行显示多少张图片
+  picWidth  代表每张图片的宽度  
+  lineShowNum  代表每行显示多少张图片
 */
 
-'''$("selector").fallspic({picWidth:250,lineShowNum:4}); '''
+$("selector").fallspic({picWidth:250,lineShowNum:4}); 
